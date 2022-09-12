@@ -1,23 +1,12 @@
-.title {
-    color: coral;
-    font-style: italic;
+.social-links .link {
+    color: teal;
 }
 
-.navigation li {
-    border: 10px solid tomato;
-    position: static;
-    color: rgba(255, 255, 255, 0);
+.social-links .link:hover,
+.social-links .link:focus {
+    color: orange;
 }
 
-a[href="mailto:info@devstudio.com"] {
-    color: hotpink;
-}
-
-a:hover[href="mailto:info@devstudio.com"] {
-    color: rgb(111, 31, 135);
-}
-
-a[href="tel:+380961111111"] {
-    font-weight: bold;
-    color: rgb(52, 123, 99);
+.social-links .link:active {
+    color: red;
 }
